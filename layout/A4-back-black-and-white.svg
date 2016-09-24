@@ -15,14 +15,12 @@
     .card-border {
       fill: black;
     }
-    .grid-line {
-      stroke: white;
-      stroke-width: 0.2;
-    }
   </style>
   <defs>
     <g id="card">
-      <rect class="card-border" x="0" y="0" width="42" height="42" />
+      <rect class="card-border" x="0" y="0" width="42" height="42"
+        rx="5" ry="5"
+      />
     </g>
     <g id="row">
       <use id="col1" xlink:href="#card" transform="translate(  0)" />
@@ -31,12 +29,6 @@
       <use id="col4" xlink:href="#card" transform="translate(126)" />
       <use id="col5" xlink:href="#card" transform="translate(168)" />
     </g>
-    <line id="horizontal-grid-line" class="grid-line"
-      x1="0" x2="210" y1="0" y2="0"
-    />
-    <line id="vertical-grid-line" class="grid-line"
-      x1="0" x2="0" y1="0" y2="297"
-    />
   </defs>
   <use id="row1" xlink:href="#row" transform="translate(0,   0)" />
   <use id="row2" xlink:href="#row" transform="translate(0,  42)" />
@@ -45,20 +37,4 @@
   <use id="row5" xlink:href="#row" transform="translate(0, 168)" />
   <use id="row6" xlink:href="#row" transform="translate(0, 210)" />
   <use id="row7" xlink:href="#row" transform="translate(0, 252)" />
-  <g id="grid">
-    <use xlink:href="#vertical-grid-line" transform="translate(  0)" />
-    <use xlink:href="#vertical-grid-line" transform="translate( 42)" />
-    <use xlink:href="#vertical-grid-line" transform="translate( 84)" />
-    <use xlink:href="#vertical-grid-line" transform="translate(126)" />
-    <use xlink:href="#vertical-grid-line" transform="translate(168)" />
-    <use xlink:href="#vertical-grid-line" transform="translate(210)" />
-    <use xlink:href="#horizontal-grid-line" transform="translate(0,   0)" />
-    <use xlink:href="#horizontal-grid-line" transform="translate(0,  42)" />
-    <use xlink:href="#horizontal-grid-line" transform="translate(0,  84)" />
-    <use xlink:href="#horizontal-grid-line" transform="translate(0, 126)" />
-    <use xlink:href="#horizontal-grid-line" transform="translate(0, 168)" />
-    <use xlink:href="#horizontal-grid-line" transform="translate(0, 210)" />
-    <use xlink:href="#horizontal-grid-line" transform="translate(0, 252)" />
-    <use xlink:href="#horizontal-grid-line" transform="translate(0, 294)" />
-  </g>
 </svg>

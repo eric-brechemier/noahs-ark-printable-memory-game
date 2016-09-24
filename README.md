@@ -29,8 +29,11 @@ shall be printed on both sides:
   * the front side has all the distinct animals (one card for each pair)
   * the back side has Noah's Ark (one back for each card)
 
-The cards are laid one next to each other, without separating gutters,
-and can be cut by following the lines between the cards.
+The cards are laid one next to each other, without separating gutters.
+Separate the cards by cutting along the middle lines between cards,
+using the end of rounded borders as a visual indication of the position
+of the middle. The cards can be left as squares, there is no need to
+cut off the rounded corners.
 
 ## Illustration Credits
 
