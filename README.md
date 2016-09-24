@@ -29,6 +29,12 @@ shall be printed on both sides:
   * the front side has all the distinct animals (one card for each pair)
   * the back side has Noah's Ark (one back for each card)
 
+In order to ensure that the front and back of each card match on the
+printing page, define non-printable areas of 0mm/0in on each side and
+print the page at full size (100%), with no resizing applied. Safe
+margins ([greater than 0.25in](http://stackoverflow.com/a/3513476))
+are already included in the PDF documents.
+
 The cards are laid one next to each other, without separating gutters.
 Separate the cards by cutting along the middle lines between cards,
 using the end of rounded borders as a visual indication of the position
