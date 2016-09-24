@@ -15,11 +15,17 @@
     .card-border {
       fill: black;
     }
+    .card-inner {
+      fill: white;
+    }
   </style>
   <defs>
     <g id="card">
       <rect class="card-border" x="0" y="0" width="42" height="42"
         rx="5" ry="5"
+      />
+      <rect class="card-inner" x="3" y="3" width="36" height="36"
+        rx="3" ry="3"
       />
     </g>
     <g id="row">
