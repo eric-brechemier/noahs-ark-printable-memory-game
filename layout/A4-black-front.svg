@@ -1,0 +1,289 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="210mm"
+  height="297mm"
+  viewBox="0 0 210 297"
+>
+  <title xml:lang="en">Layout for front of cards on A4 pages (B&amp;W)</title>
+  <desc xml:lang="en">
+    Layout for the front of cards
+    of Noah's Ark Memory Game
+    to print on A4 pages in Black &amp; White
+  </desc>
+  <style type="text/css">
+    .card-border {
+      fill: black;
+    }
+    .card-inner {
+      fill: white;
+    }
+  </style>
+  <defs>
+    <g id="card-background">
+      <rect class="card-border" x="0" y="0" width="42" height="42"
+        rx="5" ry="5"
+      />
+      <rect class="card-inner" x="3" y="3" width="36" height="36"
+        rx="3" ry="3"
+      />
+    </g>
+    <g id="cardA1">
+      <use xlink:href="#card-background" />
+      <image x="3" y="3" width="36" height="36"
+        xlink:href="../pictures/animals/Bear by www.yugudesign.com noun_246342.svg"
+      />
+    </g>
+    <g id="cardB1">
+      <use xlink:href="#card-background" />
+      <image x="4" y="4" width="34" height="34"
+        xlink:href="../pictures/animals/Butterfly by Arthur Shlain noun_24514.svg"
+      />
+    </g>
+    <g id="cardC1">
+      <use xlink:href="#card-background" />
+      <image x="3" y="3" width="36" height="36"
+        xlink:href="../pictures/animals/Camel by Boudewijn Mijnlieff noun_97344.svg"
+      />
+    </g>
+    <g id="cardD1">
+      <use xlink:href="#card-background" />
+      <image x="3" y="3" width="36" height="36"
+        xlink:href="../pictures/animals/Cat by Boudewijn Mijnlieff noun_95054.svg"
+      />
+    </g>
+    <g id="cardE1">
+      <use xlink:href="#card-background" />
+      <image x="4" y="4" width="34" height="34"
+        xlink:href="../pictures/animals/Cow by Chris Pyper noun_134420.svg"
+      />
+    </g>
+
+    <g id="cardA2">
+      <use xlink:href="#card-background" />
+      <image x="3" y="3" width="36" height="36"
+        xlink:href="../pictures/animals/Cricket by Ed Harrison noun_198564.svg"
+      />
+    </g>
+    <g id="cardB2">
+      <use xlink:href="#card-background" />
+      <image x="3" y="3" width="36" height="36"
+        xlink:href="../pictures/animals/Crow by Matt Steele noun_8425.svg"
+      />
+    </g>
+    <g id="cardC2">
+      <use xlink:href="#card-background" />
+      <image x="3" y="3" width="36" height="36"
+        xlink:href="../pictures/animals/Dog by Boudewijn Mijnlieff noun_95895.svg"
+      />
+    </g>
+    <g id="cardD2">
+      <use xlink:href="#card-background" />
+      <image x="3" y="3" width="36" height="36"
+        xlink:href="../pictures/animals/Dove by www.yugudesign.com noun_246347.svg"
+      />
+    </g>
+    <g id="cardE2">
+      <use xlink:href="#card-background" />
+      <image x="3" y="3" width="36" height="36"
+        xlink:href="../pictures/animals/Eagle by m. turan ercan noun_65187.svg"
+      />
+    </g>
+
+    <g id="cardA3">
+      <use xlink:href="#card-background" />
+      <image x="4" y="4" width="34" height="34"
+        xlink:href="../pictures/animals/Elephant by Vicons Design noun_22580.svg"
+      />
+    </g>
+    <g id="cardB3">
+      <use xlink:href="#card-background" />
+      <image x="4" y="4" width="34" height="34"
+        xlink:href="../pictures/animals/Fly by Felipe Perucho noun_4594.svg"
+      />
+    </g>
+    <g id="cardC3">
+      <use xlink:href="#card-background" />
+      <image x="3" y="3" width="36" height="36"
+        xlink:href="../pictures/animals/Fox by m. turan ercan noun_106672.svg"
+      />
+    </g>
+    <g id="cardD3">
+      <use xlink:href="#card-background" />
+      <image x="4" y="4" width="34" height="34"
+        xlink:href="../pictures/animals/Giraffe by Maëlle Chassard noun_13453.svg"
+      />
+    </g>
+    <g id="cardE3">
+      <use xlink:href="#card-background" />
+      <image x="4" y="4" width="34" height="34"
+        xlink:href="../pictures/animals/Goat by www.yugudesign.com noun_246351.svg"
+      />
+    </g>
+
+    <g id="cardA4">
+      <use xlink:href="#card-background" />
+      <image x="3" y="3" width="36" height="36"
+        xlink:href="../pictures/animals/Goose by Sergey Demushkin noun_539847.svg"
+      />
+    </g>
+    <g id="cardB4">
+      <use xlink:href="#card-background" />
+      <image x="3" y="3" width="36" height="36"
+        xlink:href="../pictures/animals/Horse by Semilla Solar noun_29548.svg"
+      />
+    </g>
+    <g id="cardC4">
+      <use xlink:href="#card-background" />
+      <image x="3" y="3" width="36" height="36"
+        xlink:href="../pictures/animals/Kangaroo by Boudewijn Mijnlieff noun_95105.svg"
+      />
+    </g>
+    <g id="cardD4">
+      <use xlink:href="#card-background" />
+      <image x="4" y="4" width="34" height="34"
+        xlink:href="../pictures/animals/Ladybug by Isabel Martínez Isabel noun_11283.svg"
+      />
+    </g>
+    <g id="cardE4">
+      <use xlink:href="#card-background" />
+      <image x="3" y="3" width="36" height="36"
+        xlink:href="../pictures/animals/Lamb by Shaun Lee noun_112804.svg"
+      />
+    </g>
+
+    <g id="cardA5">
+      <use xlink:href="#card-background" />
+      <image x="3" y="3" width="36" height="36"
+        xlink:href="../pictures/animals/Lion by www.yugudesign.com noun_246358.svg"
+      />
+    </g>
+    <g id="cardB5">
+      <use xlink:href="#card-background" />
+      <image x="3" y="3" width="36" height="36"
+        xlink:href="../pictures/animals/Monkey by Boudewijn Mijnlieff noun_95055.svg"
+      />
+    </g>
+    <g id="cardC5">
+      <use xlink:href="#card-background" />
+      <image x="4" y="4" width="34" height="34"
+        xlink:href="../pictures/animals/Ostrich by Tatiana Belkina noun_634942.svg"
+      />
+    </g>
+    <g id="cardD5">
+      <use xlink:href="#card-background" />
+      <image x="3" y="3" width="36" height="36"
+        xlink:href="../pictures/animals/Pig by Jarem Frye noun_380869.svg"
+      />
+    </g>
+    <g id="cardE5">
+      <use xlink:href="#card-background" />
+      <image x="3" y="3" width="36" height="36"
+        xlink:href="../pictures/animals/Rabbit by Niké Jenny Bruinsma noun_158876.svg"
+      />
+    </g>
+
+    <g id="cardA6">
+      <use xlink:href="#card-background" />
+      <image x="3" y="3" width="36" height="36"
+        xlink:href="../pictures/animals/Rat by Gilad Fried noun_4077.svg"
+      />
+    </g>
+    <g id="cardB6">
+      <use xlink:href="#card-background" />
+      <image x="3" y="3" width="36" height="36"
+        xlink:href="../pictures/animals/Rhinoceros by matthew hall noun_25772.svg"
+      />
+    </g>
+    <g id="cardC6">
+      <use xlink:href="#card-background" />
+      <image x="3" y="3" width="36" height="36"
+        xlink:href="../pictures/animals/Snail by www.yugudesign.com noun_246370.svg"
+      />
+    </g>
+    <g id="cardD6">
+      <use xlink:href="#card-background" />
+      <image x="3" y="3" width="36" height="36"
+        xlink:href="../pictures/animals/Snake by Niké Jenny Bruinsma noun_158882.svg"
+      />
+    </g>
+    <g id="cardE6">
+      <use xlink:href="#card-background" />
+      <image x="3" y="3" width="36" height="36"
+        xlink:href="../pictures/animals/Spider by Gilad Fried noun_12131.svg"
+      />
+    </g>
+
+    <g id="cardA7">
+      <use xlink:href="#card-background" />
+      <image x="4" y="4" width="34" height="34"
+        xlink:href="../pictures/animals/Squirrel by Alessandro Costa noun_1326.svg"
+      />
+    </g>
+    <g id="cardB7">
+      <use xlink:href="#card-background" />
+      <image x="3" y="3" width="36" height="36"
+        xlink:href="../pictures/animals/Swallow by Agne Alesiute noun_66934.svg"
+      />
+    </g>
+    <g id="cardC7">
+      <use xlink:href="#card-background" />
+      <image x="3" y="3" width="36" height="36"
+        xlink:href="../pictures/animals/Turkey by Matt Steele noun_8427.svg"
+      />
+    </g>
+    <g id="cardD7">
+      <use xlink:href="#card-background" />
+      <image x="4" y="4" width="34" height="34"
+        xlink:href="../pictures/animals/Wolf by Rodny Lobos noun_1555.svg"
+      />
+    </g>
+    <g id="cardE7">
+      <use xlink:href="#card-background" />
+      <image x="4" y="4" width="34" height="34"
+        xlink:href="../pictures/animals/Zebra by Isabel Martínez Isabel noun_10753.svg"
+      />
+    </g>
+  </defs>
+  <use xlink:href="#cardA1" transform="translate(   0,   0)" />
+  <use xlink:href="#cardB1" transform="translate(  42,   0)" />
+  <use xlink:href="#cardC1" transform="translate(  84,   0)" />
+  <use xlink:href="#cardD1" transform="translate( 126,   0)" />
+  <use xlink:href="#cardE1" transform="translate( 168,   0)" />
+
+  <use xlink:href="#cardA2" transform="translate(   0,  42)" />
+  <use xlink:href="#cardB2" transform="translate(  42,  42)" />
+  <use xlink:href="#cardC2" transform="translate(  84,  42)" />
+  <use xlink:href="#cardD2" transform="translate( 126,  42)" />
+  <use xlink:href="#cardE2" transform="translate( 168,  42)" />
+
+  <use xlink:href="#cardA3" transform="translate(   0,  84)" />
+  <use xlink:href="#cardB3" transform="translate(  42,  84)" />
+  <use xlink:href="#cardC3" transform="translate(  84,  84)" />
+  <use xlink:href="#cardD3" transform="translate( 126,  84)" />
+  <use xlink:href="#cardE3" transform="translate( 168,  84)" />
+
+  <use xlink:href="#cardA4" transform="translate(   0, 126)" />
+  <use xlink:href="#cardB4" transform="translate(  42, 126)" />
+  <use xlink:href="#cardC4" transform="translate(  84, 126)" />
+  <use xlink:href="#cardD4" transform="translate( 126, 126)" />
+  <use xlink:href="#cardE4" transform="translate( 168, 126)" />
+
+  <use xlink:href="#cardA5" transform="translate(   0, 168)" />
+  <use xlink:href="#cardB5" transform="translate(  42, 168)" />
+  <use xlink:href="#cardC5" transform="translate(  84, 168)" />
+  <use xlink:href="#cardD5" transform="translate( 126, 168)" />
+  <use xlink:href="#cardE5" transform="translate( 168, 168)" />
+
+  <use xlink:href="#cardA6" transform="translate(   0, 210)" />
+  <use xlink:href="#cardB6" transform="translate(  42, 210)" />
+  <use xlink:href="#cardC6" transform="translate(  84, 210)" />
+  <use xlink:href="#cardD6" transform="translate( 126, 210)" />
+  <use xlink:href="#cardE6" transform="translate( 168, 210)" />
+
+  <use xlink:href="#cardA7" transform="translate(   0, 252)" />
+  <use xlink:href="#cardB7" transform="translate(  42, 252)" />
+  <use xlink:href="#cardC7" transform="translate(  84, 252)" />
+  <use xlink:href="#cardD7" transform="translate( 126, 252)" />
+  <use xlink:href="#cardE7" transform="translate( 168, 252)" />
+</svg>
