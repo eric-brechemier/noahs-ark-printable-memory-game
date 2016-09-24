@@ -27,6 +27,9 @@
       <rect class="card-inner" x="3" y="3" width="36" height="36"
         rx="3" ry="3"
       />
+      <image x="3" y="3" width="36" height="36"
+        xlink:href="../pictures/Noah's Ark by Gilad Fried noun_8980.svg"
+      />
     </g>
     <g id="row">
       <use id="col1" xlink:href="#card" transform="translate(  0)" />
