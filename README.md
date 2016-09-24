@@ -47,7 +47,7 @@ which helps to identify the animal or improves sorting order.
 
 ## License
 
-"Noah's Ark Printable Memory Game" CC-BY Eric Bréchemier
+"Noah's Ark Printable Memory Game" CC-BY Eric Bréchemier  
 Royalty free illustrations used under license from [The Noun Project][].
 
 [The Noun Project]: https://thenounproject.com/
