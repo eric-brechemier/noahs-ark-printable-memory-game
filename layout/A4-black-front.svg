@@ -244,46 +244,73 @@
         xlink:href="../pictures/animals/Zebra by Isabel Martínez Isabel noun_10753.svg"
       />
     </g>
+    <g id="empty-row">
+      <use xlink:href="#card-background" transform="translate(-31.5)" />
+      <use xlink:href="#card-background" transform="translate(  7.5)" />
+      <use xlink:href="#card-background" transform="translate( 46.5)" />
+      <use xlink:href="#card-background" transform="translate( 85.5)" />
+      <use xlink:href="#card-background" transform="translate(124.5)" />
+      <use xlink:href="#card-background" transform="translate(163.5)" />
+      <use xlink:href="#card-background" transform="translate(202.5)" />
+    </g>
   </defs>
-  <use xlink:href="#cardA1" transform="translate(   7.5,   7.5)" />
-  <use xlink:href="#cardB1" transform="translate(  46.5,   7.5)" />
-  <use xlink:href="#cardC1" transform="translate(  85.5,   7.5)" />
-  <use xlink:href="#cardD1" transform="translate( 124.5,   7.5)" />
-  <use xlink:href="#cardE1" transform="translate( 163.5,   7.5)" />
+  <use xlink:href="#empty-row"       transform="translate(     0, -31.5)" />
 
-  <use xlink:href="#cardA2" transform="translate(   7.5,  46.5)" />
-  <use xlink:href="#cardB2" transform="translate(  46.5,  46.5)" />
-  <use xlink:href="#cardC2" transform="translate(  85.5,  46.5)" />
-  <use xlink:href="#cardD2" transform="translate( 124.5,  46.5)" />
-  <use xlink:href="#cardE2" transform="translate( 163.5,  46.5)" />
+  <use xlink:href="#card-background" transform="translate( -31.5,   7.5)" />
+  <use xlink:href="#cardA1"          transform="translate(   7.5,   7.5)" />
+  <use xlink:href="#cardB1"          transform="translate(  46.5,   7.5)" />
+  <use xlink:href="#cardC1"          transform="translate(  85.5,   7.5)" />
+  <use xlink:href="#cardD1"          transform="translate( 124.5,   7.5)" />
+  <use xlink:href="#cardE1"          transform="translate( 163.5,   7.5)" />
+  <use xlink:href="#card-background" transform="translate( 202.5,   7.5)" />
 
-  <use xlink:href="#cardA3" transform="translate(   7.5,  85.5)" />
-  <use xlink:href="#cardB3" transform="translate(  46.5,  85.5)" />
-  <use xlink:href="#cardC3" transform="translate(  85.5,  85.5)" />
-  <use xlink:href="#cardD3" transform="translate( 124.5,  85.5)" />
-  <use xlink:href="#cardE3" transform="translate( 163.5,  85.5)" />
+  <use xlink:href="#card-background" transform="translate( -31.5,  46.5)" />
+  <use xlink:href="#cardA2"          transform="translate(   7.5,  46.5)" />
+  <use xlink:href="#cardB2"          transform="translate(  46.5,  46.5)" />
+  <use xlink:href="#cardC2"          transform="translate(  85.5,  46.5)" />
+  <use xlink:href="#cardD2"          transform="translate( 124.5,  46.5)" />
+  <use xlink:href="#cardE2"          transform="translate( 163.5,  46.5)" />
+  <use xlink:href="#card-background" transform="translate( 202.5,  46.5)" />
 
-  <use xlink:href="#cardA4" transform="translate(   7.5, 124.5)" />
-  <use xlink:href="#cardB4" transform="translate(  46.5, 124.5)" />
-  <use xlink:href="#cardC4" transform="translate(  85.5, 124.5)" />
-  <use xlink:href="#cardD4" transform="translate( 124.5, 124.5)" />
-  <use xlink:href="#cardE4" transform="translate( 163.5, 124.5)" />
+  <use xlink:href="#card-background" transform="translate( -31.5,  85.5)" />
+  <use xlink:href="#cardA3"          transform="translate(   7.5,  85.5)" />
+  <use xlink:href="#cardB3"          transform="translate(  46.5,  85.5)" />
+  <use xlink:href="#cardC3"          transform="translate(  85.5,  85.5)" />
+  <use xlink:href="#cardD3"          transform="translate( 124.5,  85.5)" />
+  <use xlink:href="#cardE3"          transform="translate( 163.5,  85.5)" />
+  <use xlink:href="#card-background" transform="translate( 202.5,  85.5)" />
 
-  <use xlink:href="#cardA5" transform="translate(   7.5, 163.5)" />
-  <use xlink:href="#cardB5" transform="translate(  46.5, 163.5)" />
-  <use xlink:href="#cardC5" transform="translate(  85.5, 163.5)" />
-  <use xlink:href="#cardD5" transform="translate( 124.5, 163.5)" />
-  <use xlink:href="#cardE5" transform="translate( 163.5, 163.5)" />
+  <use xlink:href="#card-background" transform="translate( -31.5, 124.5)" />
+  <use xlink:href="#cardA4"          transform="translate(   7.5, 124.5)" />
+  <use xlink:href="#cardB4"          transform="translate(  46.5, 124.5)" />
+  <use xlink:href="#cardC4"          transform="translate(  85.5, 124.5)" />
+  <use xlink:href="#cardD4"          transform="translate( 124.5, 124.5)" />
+  <use xlink:href="#cardE4"          transform="translate( 163.5, 124.5)" />
+  <use xlink:href="#card-background" transform="translate( 202.5, 124.5)" />
 
-  <use xlink:href="#cardA6" transform="translate(   7.5, 202.5)" />
-  <use xlink:href="#cardB6" transform="translate(  46.5, 202.5)" />
-  <use xlink:href="#cardC6" transform="translate(  85.5, 202.5)" />
-  <use xlink:href="#cardD6" transform="translate( 124.5, 202.5)" />
-  <use xlink:href="#cardE6" transform="translate( 163.5, 202.5)" />
+  <use xlink:href="#card-background" transform="translate( -31.5, 163.5)" />
+  <use xlink:href="#cardA5"          transform="translate(   7.5, 163.5)" />
+  <use xlink:href="#cardB5"          transform="translate(  46.5, 163.5)" />
+  <use xlink:href="#cardC5"          transform="translate(  85.5, 163.5)" />
+  <use xlink:href="#cardD5"          transform="translate( 124.5, 163.5)" />
+  <use xlink:href="#cardE5"          transform="translate( 163.5, 163.5)" />
+  <use xlink:href="#card-background" transform="translate( 202.5, 163.5)" />
 
-  <use xlink:href="#cardA7" transform="translate(   7.5, 241.5)" />
-  <use xlink:href="#cardB7" transform="translate(  46.5, 241.5)" />
-  <use xlink:href="#cardC7" transform="translate(  85.5, 241.5)" />
-  <use xlink:href="#cardD7" transform="translate( 124.5, 241.5)" />
-  <use xlink:href="#cardE7" transform="translate( 163.5, 241.5)" />
+  <use xlink:href="#card-background" transform="translate( -31.5, 202.5)" />
+  <use xlink:href="#cardA6"          transform="translate(   7.5, 202.5)" />
+  <use xlink:href="#cardB6"          transform="translate(  46.5, 202.5)" />
+  <use xlink:href="#cardC6"          transform="translate(  85.5, 202.5)" />
+  <use xlink:href="#cardD6"          transform="translate( 124.5, 202.5)" />
+  <use xlink:href="#cardE6"          transform="translate( 163.5, 202.5)" />
+  <use xlink:href="#card-background" transform="translate( 202.5, 202.5)" />
+
+  <use xlink:href="#card-background" transform="translate( -31.5, 241.5)" />
+  <use xlink:href="#cardA7"          transform="translate(   7.5, 241.5)" />
+  <use xlink:href="#cardB7"          transform="translate(  46.5, 241.5)" />
+  <use xlink:href="#cardC7"          transform="translate(  85.5, 241.5)" />
+  <use xlink:href="#cardD7"          transform="translate( 124.5, 241.5)" />
+  <use xlink:href="#cardE7"          transform="translate( 163.5, 241.5)" />
+  <use xlink:href="#card-background" transform="translate( 202.5, 241.5)" />
+
+  <use xlink:href="#empty-row"     transform="translate(0, 280.5)" />
 </svg>
