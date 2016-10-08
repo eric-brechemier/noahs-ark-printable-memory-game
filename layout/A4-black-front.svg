@@ -18,6 +18,9 @@
     .card-inner {
       fill: white;
     }
+    .safe-margin {
+      fill: yellow;
+    }
   </style>
   <defs>
     <g id="card-background">
@@ -313,4 +316,11 @@
   <use xlink:href="#card-background" transform="translate( 202.5, 241.5)" />
 
   <use xlink:href="#empty-row"     transform="translate(0, 280.5)" />
+
+  <g id="safe-margin">
+    <rect class="safe-margin" x="0" y="0" width="210" height="6.35" />
+    <rect class="safe-margin" x="203.65" y="0" width="6.35" height="297" />
+    <rect class="safe-margin" x="0" y="0" width="6.35" height="297" />
+    <rect class="safe-margin" x="0" y="290.65" width="210" height="6.35" />
+  </g>
 </svg>
