@@ -18,7 +18,9 @@
     .card-inner {
       fill: white;
     }
+    /* Highlight safe margins of printing */
     .safe-margin {
+      /* fill: yellow; */
       fill: none;
     }
   </style>
