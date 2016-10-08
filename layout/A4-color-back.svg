@@ -39,9 +39,11 @@
         rx="3" ry="3"
       />
     </mask>
-    <g id="card-background" filter="url(#card-color-filter)">
-      <use mask="url(#card-background-mask)" xlink:href="#card-border" />
-    </g>
+    <use id="card-background"
+      mask="url(#card-background-mask)"
+      filter="url(#card-color-filter)"
+      xlink:href="#card-border"
+    />
     <g id="card">
       <use xlink:href="#card-background" />
       <image filter="url(#card-color-filter)"
