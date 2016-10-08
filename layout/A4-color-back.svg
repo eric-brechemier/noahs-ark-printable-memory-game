@@ -20,7 +20,7 @@
   </style>
   <defs>
     <filter id="card-color-filter">
-      <!-- change white into rgba(0%,0%,52%,1) -->
+      <!-- change any color into rgba(0%,0%,52%), preserving opacity -->
       <feColorMatrix values="
         0  0  0  0  0
         0  0  0  0  0
