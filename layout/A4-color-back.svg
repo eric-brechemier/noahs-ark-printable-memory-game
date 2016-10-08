@@ -12,12 +12,6 @@
     to print on A4 pages in Color
   </desc>
   <style type="text/css">
-    .card-border, .card-color {
-      fill: #000088;
-    }
-    .card-inner {
-      fill: white;
-    }
     /* Highlight safe margins of printing */
     .safe-margin {
       /* fill: yellow; */
@@ -25,38 +19,36 @@
     }
   </style>
   <defs>
-    <filter id="turn-black-into-white">
+    <filter id="card-color-filter">
+      <!-- change white into rgba(0%,0%,52%,1) -->
       <feColorMatrix values="
-        -1  0  0  0  1
-         0 -1  0  0  1
-         0  0 -1  0  1
-         0  0  0  1  0
+        0  0  0  0  0
+        0  0  0  0  0
+        0  0  0  0  0.52
+        0  0  0  1  0
       "/>
     </filter>
-    <g id="card-background">
-      <rect class="card-border" x="0" y="0" width="39" height="39"
+    <mask id="card-background-mask">
+      <rect fill="white"
+        x="0" y="0" width="39" height="39"
         rx="5" ry="5"
       />
-      <rect class="card-inner" x="3" y="3" width="33" height="33"
+      <rect fill="black"
+        x="3" y="3" width="33" height="33"
         rx="3" ry="3"
       />
-    </g>
-    <mask id="picture-mask">
-      <!--
-      Reference:
-      How to use an (sic) black image as svg mask?
-      http://stackoverflow.com/a/39750710
-      -->
-      <image x="0" y="0" width="33" height="33"
-        filter="url(#turn-black-into-white)"
-        xlink:href="../pictures/Noah's Ark by Gilad Fried noun_8980.svg"
-      />
     </mask>
+    <g id="card-background" filter="url(#card-color-filter)">
+      <rect mask="url(#card-background-mask)"
+        x="0" y="0" width="39" height="39"
+        rx="5" ry="5"
+      />
+    </g>
     <g id="card">
       <use xlink:href="#card-background" />
-      <rect class="card-color" mask="url(#picture-mask)"
-        x="0" y="0" width="33" height="33"
-        transform="translate(3,3)"
+      <image filter="url(#card-color-filter)"
+        x="3" y="3" width="33" height="33"
+        xlink:href="../pictures/Noah's Ark by Gilad Fried noun_8980.svg"
       />
     </g>
     <g id="empty-row">
