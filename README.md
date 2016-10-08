@@ -20,8 +20,8 @@ Otherwise, the player who found the most pairs wins the game.
 ## Printing Instructions
 
 The game is available either in color or in black and white,
-for printing on A4 or Letter US paper. The A4 version features
-35 pairs of animals while the Letter US version feature 30 pairs.
+for printing on A4 or US Letter paper. The A4 version features
+35 pairs of animals while the US Letter version feature 30 pairs.
 
 The same sheet shall be printed twice to have pairs, and each sheet
 shall be printed on both sides:
