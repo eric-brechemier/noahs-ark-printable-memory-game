@@ -315,7 +315,7 @@
   <use xlink:href="#cardE7"          transform="translate( 163.5, 241.5)" />
   <use xlink:href="#card-background" transform="translate( 202.5, 241.5)" />
 
-  <use xlink:href="#empty-row"     transform="translate(0, 280.5)" />
+  <use xlink:href="#empty-row"       transform="translate(     0, 280.5)" />
 
   <g id="safe-margin">
     <rect class="safe-margin" x="0" y="0" width="210" height="6.35" />
