@@ -28,21 +28,19 @@
         0  0  0  1  0
       "/>
     </filter>
+    <rect id="card-border"
+      x="0" y="0" width="39" height="39"
+      rx="5" ry="5"
+    />
     <mask id="card-background-mask">
-      <rect fill="white"
-        x="0" y="0" width="39" height="39"
-        rx="5" ry="5"
-      />
+      <use fill="white" xlink:href="#card-border" />
       <rect fill="black"
         x="3" y="3" width="33" height="33"
         rx="3" ry="3"
       />
     </mask>
     <g id="card-background" filter="url(#card-color-filter)">
-      <rect mask="url(#card-background-mask)"
-        x="0" y="0" width="39" height="39"
-        rx="5" ry="5"
-      />
+      <use mask="url(#card-background-mask)" xlink:href="#card-border" />
     </g>
     <g id="card">
       <use xlink:href="#card-background" />
