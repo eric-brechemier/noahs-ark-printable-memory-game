@@ -40,6 +40,7 @@
       />
     </mask>
     <use id="card-background"
+      fill="black"
       mask="url(#card-background-mask)"
       filter="url(#card-color-filter)"
       xlink:href="#card-border"
