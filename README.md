@@ -20,11 +20,12 @@ Otherwise, the player who found the most pairs wins the game.
 ## Printing Instructions
 
 The game is available either in color or in black and white,
-for printing on A4 or US Letter paper. The A4 version features
-35 pairs of animals while the US Letter version feature 30 pairs.
+for printing on A4 or US Letter paper. Cards in the A4 version
+are 39mm in width, vs 38mm in the US Letter version.
 
-The same sheet shall be printed twice to have pairs, and each sheet
-shall be printed on both sides:
+Both versions feature 35 animals, with 35 distinct animals presented
+on one page. The same sheet shall be printed twice to have pairs,
+and each sheet shall be printed on both sides:
 
   * the front side has all the distinct animals (one card for each pair)
   * the back side has Noah's Ark (one back for each card)
