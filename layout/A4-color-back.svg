@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="210mm"
+  height="297mm"
+  viewBox="0 0 210 297"
+>
+  <title xml:lang="en">Layout for back of cards on A4 pages (Color)</title>
+  <desc xml:lang="en">
+    Layout for the back of cards
+    of Noah's Ark Memory Game
+    to print on A4 pages in Color
+  </desc>
+  <style type="text/css">
+    .card-border, .card-color {
+      fill: #000088;
+    }
+    .card-inner {
+      fill: white;
+    }
+    /* Highlight safe margins of printing */
+    .safe-margin {
+      /* fill: yellow; */
+      fill: none;
+    }
+  </style>
+  <defs>
+    <filter id="turn-black-into-white">
+      <feColorMatrix values="
+        -1  0  0  0  1
+         0 -1  0  0  1
+         0  0 -1  0  1
+         0  0  0  1  0
+      "/>
+    </filter>
+    <g id="card-background">
+      <rect class="card-border" x="0" y="0" width="39" height="39"
+        rx="5" ry="5"
+      />
+      <rect class="card-inner" x="3" y="3" width="33" height="33"
+        rx="3" ry="3"
+      />
+    </g>
+    <mask id="picture-mask">
+      <!--
+      Reference:
+      How to use an (sic) black image as svg mask?
+      http://stackoverflow.com/a/39750710
+      -->
+      <image x="0" y="0" width="33" height="33"
+        filter="url(#turn-black-into-white)"
+        xlink:href="../pictures/Noah's Ark by Gilad Fried noun_8980.svg"
+      />
+    </mask>
+    <g id="card">
+      <use xlink:href="#card-background" />
+      <rect class="card-color" mask="url(#picture-mask)"
+        x="0" y="0" width="33" height="33"
+        transform="translate(3,3)"
+      />
+    </g>
+    <g id="empty-row">
+      <use xlink:href="#card-background" transform="translate(-31.5)" />
+      <use xlink:href="#card-background" transform="translate(  7.5)" />
+      <use xlink:href="#card-background" transform="translate( 46.5)" />
+      <use xlink:href="#card-background" transform="translate( 85.5)" />
+      <use xlink:href="#card-background" transform="translate(124.5)" />
+      <use xlink:href="#card-background" transform="translate(163.5)" />
+      <use xlink:href="#card-background" transform="translate(202.5)" />
+    </g>
+    <g id="row">
+      <use xlink:href="#card-background" transform="translate(-31.5)" />
+      <use id="col1" xlink:href="#card"  transform="translate(  7.5)" />
+      <use id="col2" xlink:href="#card"  transform="translate( 46.5)" />
+      <use id="col3" xlink:href="#card"  transform="translate( 85.5)" />
+      <use id="col4" xlink:href="#card"  transform="translate(124.5)" />
+      <use id="col5" xlink:href="#card"  transform="translate(163.5)" />
+      <use xlink:href="#card-background" transform="translate(202.5)" />
+    </g>
+  </defs>
+  <use xlink:href="#empty-row"     transform="translate(0, -31.5)" />
+  <use id="row1" xlink:href="#row" transform="translate(0,   7.5)" />
+  <use id="row2" xlink:href="#row" transform="translate(0,  46.5)" />
+  <use id="row3" xlink:href="#row" transform="translate(0,  85.5)" />
+  <use id="row4" xlink:href="#row" transform="translate(0, 124.5)" />
+  <use id="row5" xlink:href="#row" transform="translate(0, 163.5)" />
+  <use id="row6" xlink:href="#row" transform="translate(0, 202.5)" />
+  <use id="row7" xlink:href="#row" transform="translate(0, 241.5)" />
+  <use xlink:href="#empty-row"     transform="translate(0, 280.5)" />
+  <g id="safe-margin">
+    <rect class="safe-margin" x="0" y="0" width="210" height="6.35" />
+    <rect class="safe-margin" x="203.65" y="0" width="6.35" height="297" />
+    <rect class="safe-margin" x="0" y="0" width="6.35" height="297" />
+    <rect class="safe-margin" x="0" y="290.65" width="210" height="6.35" />
+  </g>
+</svg>
