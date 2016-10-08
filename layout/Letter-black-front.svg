@@ -19,7 +19,7 @@
       fill: white;
     }
     .safe-margin {
-      fill: yellow;
+      fill: none;
     }
   </style>
   <defs>
