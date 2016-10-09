@@ -32,12 +32,13 @@
       x="0" y="0" width="39" height="39"
       rx="5" ry="5"
     />
+    <rect id="card-inner"
+      x="3" y="3" width="33" height="33"
+      rx="3" ry="3"
+    />
     <mask id="card-background-mask">
       <use fill="white" xlink:href="#card-border" />
-      <rect fill="black"
-        x="3" y="3" width="33" height="33"
-        rx="3" ry="3"
-      />
+      <use fill="black" xlink:href="#card-inner" />
     </mask>
     <use id="card-background"
       fill="black"
