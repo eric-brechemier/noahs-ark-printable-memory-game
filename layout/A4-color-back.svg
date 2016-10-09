@@ -12,6 +12,9 @@
     to print on A4 pages in Color
   </desc>
   <style type="text/css">
+    .background-color {
+      fill: #115;
+    }
     /* Highlight safe margins of printing */
     .safe-margin {
       /* fill: yellow; */
@@ -20,11 +23,11 @@
   </style>
   <defs>
     <filter id="card-color-filter">
-      <!-- change any color into rgba(0%,0%,52%), preserving opacity -->
+      <!-- change any color into rgba(0%,0%,82%), preserving opacity -->
       <feColorMatrix values="
         0  0  0  0  0
         0  0  0  0  0
-        0  0  0  0  0.52
+        0  0  0  0  0.82
         0  0  0  1  0
       "/>
     </filter>
@@ -40,12 +43,14 @@
       <use fill="white" xlink:href="#card-border" />
       <use fill="black" xlink:href="#card-inner" />
     </mask>
-    <use id="card-background"
-      fill="black"
-      mask="url(#card-background-mask)"
-      filter="url(#card-color-filter)"
-      xlink:href="#card-border"
-    />
+    <g id="card-background">
+      <use fill="black"
+        mask="url(#card-background-mask)"
+        filter="url(#card-color-filter)"
+        xlink:href="#card-border"
+      />
+      <use class="background-color" xlink:href="#card-inner" />
+    </g>
     <g id="card">
       <use xlink:href="#card-background" />
       <image filter="url(#card-color-filter)"
