@@ -23,11 +23,11 @@
   </style>
   <defs>
     <filter id="card-color-filter">
-      <!-- change any color into rgba(0%,0%,82%), preserving opacity -->
+      <!-- change any color into rgba(0%,0%,75%), preserving opacity -->
       <feColorMatrix values="
         0  0  0  0  0
         0  0  0  0  0
-        0  0  0  0  0.82
+        0  0  0  0  0.75
         0  0  0  1  0
       "/>
     </filter>
