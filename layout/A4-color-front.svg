@@ -40,6 +40,7 @@
     <filter id="black-card-color-filter">
       <!-- change any color into rgb(0%,0%,0%), preserving opacity -->
       <feColorMatrix
+        color-interpolation-filters="sRGB"
         values="
           0  0  0  0  0
           0  0  0  0  0
@@ -51,6 +52,7 @@
     <filter id="white-card-color-filter">
       <!-- change any color into rgb(100%,100%,100%), preserving opacity -->
       <feColorMatrix
+        color-interpolation-filters="sRGB"
         values="
           0  0  0  0  1
           0  0  0  0  1
@@ -62,6 +64,7 @@
     <filter id="red-card-color-filter">
       <!-- change any color into rgb(78%,0%,0%), preserving opacity -->
       <feColorMatrix
+        color-interpolation-filters="sRGB"
         values="
           0  0  0  0  0.78
           0  0  0  0  0
@@ -73,6 +76,7 @@
     <filter id="green-card-color-filter">
       <!-- change any color into rgb(0%,78%,0%), preserving opacity -->
       <feColorMatrix
+        color-interpolation-filters="sRGB"
         values="
           0  0  0  0  0
           0  0  0  0  0.78
@@ -84,6 +88,7 @@
     <filter id="blue-card-color-filter">
       <!-- change any color into rgb(0%,0%,78%), preserving opacity -->
       <feColorMatrix
+        color-interpolation-filters="sRGB"
         values="
           0  0  0  0  0
           0  0  0  0  0
@@ -95,6 +100,7 @@
     <filter id="yellow-card-color-filter">
       <!-- change any color into rgb(88%,88%,0%), preserving opacity -->
       <feColorMatrix
+        color-interpolation-filters="sRGB"
         values="
           0  0  0  0  0.88
           0  0  0  0  0.88
