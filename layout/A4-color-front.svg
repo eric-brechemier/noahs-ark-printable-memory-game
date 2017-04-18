@@ -138,7 +138,7 @@
     />
 
     <use id="empty-card"
-      xlink:href="#green-background"
+      xlink:href="#white-background"
     />
 
     <g id="cardA1">
