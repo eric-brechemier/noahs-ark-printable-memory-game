@@ -34,25 +34,8 @@
     <rect id="card-background"
       x="0" y="0" width="39" height="39"
     />
-    <rect id="card-border"
-      x="0" y="0" width="39" height="39"
-      rx="5" ry="5"
-    />
-    <rect id="card-inner"
-      x="3" y="3" width="33" height="33"
-      rx="3" ry="3"
-    />
-    <mask id="card-border-mask">
-      <use fill="white" xlink:href="#card-border" />
-      <use fill="black" xlink:href="#card-inner" />
-    </mask>
     <g id="blue-card-background">
       <use class="background-color" xlink:href="#card-background" />
-      <use fill="black"
-        mask="url(#card-border-mask)"
-        filter="url(#blue-card-color-filter)"
-        xlink:href="#card-border"
-      />
     </g>
     <g id="card">
       <use xlink:href="#blue-card-background" />
