@@ -19,16 +19,16 @@
       fill: white;
     }
     .red-background-color {
-      fill: rgb(60%,0%,0%);
+      fill: rgb(85%,0%,0%);
     }
     .green-background-color {
-      fill: rgb(0%,60%,0%);
+      fill: rgb(0%,65%,0%);
     }
     .blue-background-color {
-      fill: rgb(0%,0%,60%);
+      fill: rgb(0%,0%,75%);
     }
     .yellow-background-color {
-      fill: rgb(60%,60%,0%);
+      fill: rgb(85%,85%,0%);
     }
     /* Highlight safe margins of printing */
     .safe-margin {
@@ -62,11 +62,11 @@
       />
     </filter>
     <filter id="red-card-color-filter">
-      <!-- change any color into rgb(78%,0%,0%), preserving opacity -->
+      <!-- change any color into rgb(85%,0%,0%), preserving opacity -->
       <feColorMatrix
         color-interpolation-filters="sRGB"
         values="
-          0  0  0  0  0.78
+          0  0  0  0  0.85
           0  0  0  0  0
           0  0  0  0  0
           0  0  0  1  0
@@ -74,36 +74,36 @@
       />
     </filter>
     <filter id="green-card-color-filter">
-      <!-- change any color into rgb(0%,78%,0%), preserving opacity -->
+      <!-- change any color into rgb(0%,65%,0%), preserving opacity -->
       <feColorMatrix
         color-interpolation-filters="sRGB"
         values="
           0  0  0  0  0
-          0  0  0  0  0.78
+          0  0  0  0  0.65
           0  0  0  0  0
           0  0  0  1  0
         "
       />
     </filter>
     <filter id="blue-card-color-filter">
-      <!-- change any color into rgb(0%,0%,78%), preserving opacity -->
+      <!-- change any color into rgb(0%,0%,75%), preserving opacity -->
       <feColorMatrix
         color-interpolation-filters="sRGB"
         values="
           0  0  0  0  0
           0  0  0  0  0
-          0  0  0  0  0.78
+          0  0  0  0  0.75
           0  0  0  1  0
         "
       />
     </filter>
     <filter id="yellow-card-color-filter">
-      <!-- change any color into rgb(88%,88%,0%), preserving opacity -->
+      <!-- change any color into rgb(85%,85%,0%), preserving opacity -->
       <feColorMatrix
         color-interpolation-filters="sRGB"
         values="
-          0  0  0  0  0.88
-          0  0  0  0  0.88
+          0  0  0  0  0.85
+          0  0  0  0  0.85
           0  0  0  0  0
           0  0  0  1  0
         "
