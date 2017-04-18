@@ -39,57 +39,69 @@
   <defs>
     <filter id="black-card-color-filter">
       <!-- change any color into rgb(0%,0%,0%), preserving opacity -->
-      <feColorMatrix values="
-        0  0  0  0  0
-        0  0  0  0  0
-        0  0  0  0  0
-        0  0  0  1  0
-      "/>
+      <feColorMatrix
+        values="
+          0  0  0  0  0
+          0  0  0  0  0
+          0  0  0  0  0
+          0  0  0  1  0
+        "
+      />
     </filter>
     <filter id="white-card-color-filter">
       <!-- change any color into rgb(100%,100%,100%), preserving opacity -->
-      <feColorMatrix values="
-        0  0  0  0  1
-        0  0  0  0  1
-        0  0  0  0  1
-        0  0  0  1  0
-      "/>
+      <feColorMatrix
+        values="
+          0  0  0  0  1
+          0  0  0  0  1
+          0  0  0  0  1
+          0  0  0  1  0
+        "
+      />
     </filter>
     <filter id="red-card-color-filter">
       <!-- change any color into rgb(78%,0%,0%), preserving opacity -->
-      <feColorMatrix values="
-        0  0  0  0  0.78
-        0  0  0  0  0
-        0  0  0  0  0
-        0  0  0  1  0
-      "/>
+      <feColorMatrix
+        values="
+          0  0  0  0  0.78
+          0  0  0  0  0
+          0  0  0  0  0
+          0  0  0  1  0
+        "
+      />
     </filter>
     <filter id="green-card-color-filter">
       <!-- change any color into rgb(0%,78%,0%), preserving opacity -->
-      <feColorMatrix values="
-        0  0  0  0  0
-        0  0  0  0  0.78
-        0  0  0  0  0
-        0  0  0  1  0
-      "/>
+      <feColorMatrix
+        values="
+          0  0  0  0  0
+          0  0  0  0  0.78
+          0  0  0  0  0
+          0  0  0  1  0
+        "
+      />
     </filter>
     <filter id="blue-card-color-filter">
       <!-- change any color into rgb(0%,0%,78%), preserving opacity -->
-      <feColorMatrix values="
-        0  0  0  0  0
-        0  0  0  0  0
-        0  0  0  0  0.78
-        0  0  0  1  0
-      "/>
+      <feColorMatrix
+        values="
+          0  0  0  0  0
+          0  0  0  0  0
+          0  0  0  0  0.78
+          0  0  0  1  0
+        "
+      />
     </filter>
     <filter id="yellow-card-color-filter">
       <!-- change any color into rgb(88%,88%,0%), preserving opacity -->
-      <feColorMatrix values="
-        0  0  0  0  0.88
-        0  0  0  0  0.88
-        0  0  0  0  0
-        0  0  0  1  0
-      "/>
+      <feColorMatrix
+        values="
+          0  0  0  0  0.88
+          0  0  0  0  0.88
+          0  0  0  0  0
+          0  0  0  1  0
+        "
+      />
     </filter>
     <rect id="card-background"
       x="0" y="0" width="39" height="39"
