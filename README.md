@@ -36,11 +36,12 @@ print the page at full size (100%), with no resizing applied. Safe
 margins ([greater than 0.25in](http://stackoverflow.com/a/3513476))
 are already included in the PDF documents.
 
-The cards are laid one next to each other, without separating gutters.
+The cards are laid next to each other, without separating gutters.
 Separate the cards by cutting along the middle lines between cards,
-using the end of rounded borders as a visual indication of the position
-of the middle. The cards can be left as squares, there is no need to
-cut off the rounded corners.
+using the end of rounded borders (in black and white version) or the
+difference of background color (in color version) as a visual indication
+of the separation between cards. The cards can be left as squares, there
+is no need to cut off the rounded corners.
 
 ## Illustration Credits
 
