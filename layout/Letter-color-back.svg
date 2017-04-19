@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="8.5in"
+  height="11in"
+  viewBox="0 0 215.9 279.4"
+>
+  <title xml:lang="en">Layout for back of cards on US Letter pages (Color)</title>
+  <desc xml:lang="en">
+    Layout for the back of cards
+    of Noah's Ark Memory Game
+    to print on US Letter pages in Color
+  </desc>
+  <style type="text/css">
+    .background-color {
+      fill: #115;
+    }
+    /* Highlight safe margins of printing */
+    .safe-margin {
+      /* fill: yellow; */
+      fill: none;
+    }
+  </style>
+  <defs>
+    <filter id="blue-card-color-filter">
+      <!-- change any color into rgb(0%,0%,75%), preserving opacity -->
+      <feColorMatrix values="
+        0  0  0  0  0
+        0  0  0  0  0
+        0  0  0  0  0.75
+        0  0  0  1  0
+      "/>
+    </filter>
+    <rect id="card-background"
+      x="0" y="0" width="38" height="38"
+    />
+    <g id="blue-card-background">
+      <use class="background-color" xlink:href="#card-background" />
+    </g>
+    <g id="card">
+      <use xlink:href="#blue-card-background" />
+      <image filter="url(#blue-card-color-filter)"
+        x="3" y="3" width="32" height="32"
+        xlink:href="../pictures/Noah's Ark by Gilad Fried noun_8980.svg"
+      />
+    </g>
+    <g id="empty-row">
+      <use xlink:href="#blue-card-background" transform="translate(-25.05)" />
+      <use xlink:href="#blue-card-background" transform="translate( 12.95)" />
+      <use xlink:href="#blue-card-background" transform="translate( 50.95)" />
+      <use xlink:href="#blue-card-background" transform="translate( 88.95)" />
+      <use xlink:href="#blue-card-background" transform="translate(126.95)" />
+      <use xlink:href="#blue-card-background" transform="translate(164.95)" />
+      <use xlink:href="#blue-card-background" transform="translate(202.95)" />
+    </g>
+    <g id="row">
+      <use xlink:href="#blue-card-background" transform="translate(-25.05)" />
+      <use id="col1" xlink:href="#card"  transform="translate( 12.95)" />
+      <use id="col2" xlink:href="#card"  transform="translate( 50.95)" />
+      <use id="col3" xlink:href="#card"  transform="translate( 88.95)" />
+      <use id="col4" xlink:href="#card"  transform="translate(126.95)" />
+      <use id="col5" xlink:href="#card"  transform="translate(164.95)" />
+      <use xlink:href="#blue-card-background" transform="translate(202.95)" />
+    </g>
+  </defs>
+  <use xlink:href="#empty-row"     transform="translate(0, -31.3)" />
+  <use id="row1" xlink:href="#row" transform="translate(0,   6.7)" />
+  <use id="row2" xlink:href="#row" transform="translate(0,  44.7)" />
+  <use id="row3" xlink:href="#row" transform="translate(0,  82.7)" />
+  <use id="row4" xlink:href="#row" transform="translate(0, 120.7)" />
+  <use id="row5" xlink:href="#row" transform="translate(0, 158.7)" />
+  <use id="row6" xlink:href="#row" transform="translate(0, 196.7)" />
+  <use id="row7" xlink:href="#row" transform="translate(0, 234.7)" />
+  <use xlink:href="#empty-row"     transform="translate(0, 272.7)" />
+  <g id="safe-margin">
+    <rect class="safe-margin" x="0" y="0" width="215.9" height="6.35" />
+    <rect class="safe-margin" x="209.55" y="0" width="6.35" height="279.4" />
+    <rect class="safe-margin" x="0" y="0" width="6.35" height="279.4" />
+    <rect class="safe-margin" x="0" y="273.05" width="215.9" height="6.35" />
+  </g>
+</svg>
